@@ -1,0 +1,12 @@
+$rg_name = "ps-rg"
+$vnet_name = "ps-vnet"
+$location = "eastus"
+$vnet_cidr = "10.0.0.0/16"
+$sub1_cidr = "10.0.0.0/24"
+$sub2_cidr = "10.0.1.0/26"
+$sub1_name = "pub-sub"
+$sub2_name = "AzureBastionSubnet"  
+$pubip_name = "bastionIP"
+$bastion_name = "Bastion"
+$vmname = 'vm' + $rg_name;
+$vmSize = 'Standard_DS3_v2'
